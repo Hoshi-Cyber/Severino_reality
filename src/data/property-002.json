@@ -1,0 +1,87 @@
+{
+  "title": "2-Bedroom Apartment in Westlands",
+  "image": "assets/images/westlands-cover.jpg",
+  "location": "Westlands, Nairobi",
+  "price": "KSh 120,000/month",
+  "bedrooms": 2,
+  "bathrooms": 2,
+  "area": "1500 sq ft",
+  "status": "For Rent",
+  "gallery": [
+    {
+      "url": "assets/images/bedroom2.jpg",
+      "caption": "Cozy Bedroom"
+    },
+    {
+      "url": "assets/images/kitchen.jpg",
+      "caption": "Modern Kitchen"
+    }
+  ],
+  "amenities": [
+    {
+      "icon": "icon-wifi",
+      "label": "Free WiFi"
+    },
+    {
+      "icon": "icon-parking",
+      "label": "Secure Parking"
+    }
+  ],
+  "cta": {
+    "label": "Book Viewing",
+    "url": "https://wa.me/254700000001"
+  },
+  "faq": [
+    {
+      "q": "Pet Friendly?",
+      "a": "Yes, pets are allowed."
+    }
+  ],
+  "map": "https://maps.google.com/?q=Westlands,Nairobi",
+  "breadcrumb": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Nairobi",
+      "url": "/nairobi"
+    },
+    {
+      "label": "Westlands",
+      "url": "/westlands"
+    }
+  ],
+  "similar": [],
+  "companyInfo": "Severino Realty Group",
+  "links": [
+    {
+      "label": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "copyright": "\u00a9 2025",
+  "logo": "assets/images/logo.png",
+  "navItems": [
+    {
+      "label": "Home",
+      "link": "/"
+    },
+    {
+      "label": "Rent",
+      "link": "/rent"
+    }
+  ],
+  "contactLink": "/contact",
+  "meta": {
+    "@context": "https://schema.org",
+    "@type": "Residence",
+    "name": "2-Bedroom Apartment in Westlands",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Westlands",
+      "addressRegion": "Nairobi",
+      "addressCountry": "Kenya"
+    }
+  }
+}
