@@ -1,0 +1,60 @@
+/* ========================
+   Testimonial Block Styles
+   File: /styles/components/testimonial-block.css
+======================== */
+
+.testimonial-block {
+  padding: var(--space-xxl) var(--space-md);
+  background-color: var(--neutral-color1);
+  text-align: center;
+}
+
+.testimonial-block h2 {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-h2);
+  margin-bottom: var(--space-xl);
+  color: var(--primary-color);
+}
+
+.testimonial-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-lg);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonial {
+  background-color: var(--background-color);
+  border-radius: var(--border-radius-medium);
+  padding: var(--space-lg);
+  box-shadow: var(--box-shadow-light);
+  position: relative;
+}
+
+.testimonial::before {
+  content: '“';
+  font-size: 48px;
+  position: absolute;
+  top: var(--space-sm);
+  left: var(--space-md);
+  color: var(--accent-color);
+}
+
+.testimonial p {
+  font-size: var(--font-size-body);
+  color: var(--text-color);
+  margin-bottom: var(--space-sm);
+}
+
+.testimonial .author {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-small);
+  color: var(--placeholder-gray);
+}
+
+@media (max-width: 768px) {
+  .testimonial-block {
+    padding: var(--space-xl) var(--space-sm);
+  }
+}

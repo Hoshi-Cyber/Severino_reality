@@ -1,0 +1,39 @@
+/* ========================
+   WhatsApp Contact Button Styles
+   File: /styles/components/whatsapp-contact-button.css
+======================== */
+
+.whatsapp-button {
+  position: fixed;
+  bottom: var(--space-lg);
+  left: var(--space-lg);
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--box-shadow-light);
+  z-index: 1000;
+  transition: background-color var(--transition-fast), transform var(--transition-fast);
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e;
+  transform: scale(1.05);
+}
+
+.whatsapp-button svg {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+@media (max-width: 768px) {
+  .whatsapp-button {
+    bottom: var(--space-md);
+    left: var(--space-md);
+  }
+}

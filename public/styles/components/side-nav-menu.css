@@ -1,0 +1,51 @@
+/* ========================
+   Side Navigation Menu Styles
+   File: /styles/components/side-nav-menu.css
+======================== */
+
+.side-nav {
+  background-color: var(--neutral-color1);
+  border-right: 1px solid var(--neutral-color2);
+  padding: var(--space-lg) var(--space-md);
+  width: 250px;
+  min-height: 100vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-small);
+  color: var(--text-color);
+}
+
+.side-nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  padding: var(--space-sm);
+  border-radius: var(--border-radius-small);
+  transition: background-color var(--transition-fast);
+}
+
+.side-nav a:hover {
+  background-color: var(--neutral-color2);
+  color: var(--primary-color);
+}
+
+.side-nav .active {
+  font-weight: var(--font-weight-semibold);
+  background-color: var(--accent-color);
+  color: var(--neutral-color1);
+}
+
+@media (max-width: 1024px) {
+  .side-nav {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+    padding: var(--space-md);
+    position: static;
+    min-height: auto;
+  }
+}

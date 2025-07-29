@@ -1,0 +1,114 @@
+{
+  "title": "3-Bedroom Family House in Kileleshwa",
+  "image": "assets/images/house-cover.jpg",
+  "location": "Kileleshwa, Nairobi",
+  "price": "KSh 180,000/month",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "area": "2100 sq ft",
+  "status": "For Rent",
+  "gallery": [
+    {
+      "url": "assets/images/bedroom.jpg",
+      "caption": "Master Bedroom"
+    },
+    {
+      "url": "assets/images/livingroom.jpg",
+      "caption": "Living Room"
+    }
+  ],
+  "amenities": [
+    {
+      "icon": "icon-bed",
+      "label": "3 Bedrooms"
+    },
+    {
+      "icon": "icon-bath",
+      "label": "2 Bathrooms"
+    },
+    {
+      "icon": "icon-wifi",
+      "label": "WiFi"
+    }
+  ],
+  "cta": {
+    "label": "Contact via WhatsApp",
+    "url": "https://wa.me/254712345678"
+  },
+  "faq": [
+    {
+      "q": "Is water included?",
+      "a": "Yes, water bills are included."
+    },
+    {
+      "q": "Is there parking?",
+      "a": "Yes, 2 parking spots are available."
+    }
+  ],
+  "map": "https://maps.google.com/?q=Kileleshwa,Nairobi",
+  "breadcrumb": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Nairobi",
+      "url": "/nairobi"
+    },
+    {
+      "label": "Kileleshwa",
+      "url": "/kileleshwa"
+    }
+  ],
+  "similar": [
+    {
+      "title": "2-Bedroom Apartment in Lavington",
+      "image": "assets/images/alt1.jpg",
+      "link": "/lavington"
+    },
+    {
+      "title": "4-Bedroom Villa in Runda",
+      "image": "assets/images/alt2.jpg",
+      "link": "/runda"
+    }
+  ],
+  "companyInfo": "Severino Realty Group, Nairobi, Kenya",
+  "links": [
+    {
+      "label": "Privacy Policy",
+      "url": "/privacy"
+    },
+    {
+      "label": "Terms",
+      "url": "/terms"
+    }
+  ],
+  "copyright": "\u00a9 2025 Severino Realty",
+  "logo": "assets/images/logo.png",
+  "navItems": [
+    {
+      "label": "Home",
+      "link": "/"
+    },
+    {
+      "label": "Rent",
+      "link": "/rent"
+    },
+    {
+      "label": "Buy",
+      "link": "/buy"
+    }
+  ],
+  "contactLink": "/contact",
+  "meta": {
+    "@context": "https://schema.org",
+    "@type": "Residence",
+    "name": "3-Bedroom Family House in Kileleshwa",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kileleshwa",
+      "addressRegion": "Nairobi",
+      "addressCountry": "Kenya"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+/* ========================
+   Page Loader Styles
+   File: /styles/components/page-loader.css
+======================== */
+
+.page-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader-spinner {
+  width: 48px;
+  height: 48px;
+  border: 5px solid var(--neutral-color2);
+  border-top: 5px solid var(--secondary-color1);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Optional variants */
+.page-loader.dark {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.page-loader.dark .loader-spinner {
+  border: 5px solid #333;
+  border-top: 5px solid var(--hover-color);
+}

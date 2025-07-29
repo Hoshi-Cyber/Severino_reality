@@ -1,0 +1,43 @@
+/* ========================
+   Image Lightbox Styles
+   File: /styles/components/image-lightbox.css
+======================== */
+
+.image-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3000;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--transition-fast);
+}
+
+.image-lightbox.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.image-lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: var(--border-radius-medium);
+  box-shadow: var(--box-shadow-heavy);
+}
+
+.image-lightbox .close-button {
+  position: absolute;
+  top: var(--space-md);
+  right: var(--space-md);
+  background: transparent;
+  color: var(--neutral-color1);
+  font-size: 32px;
+  border: none;
+  cursor: pointer;
+}

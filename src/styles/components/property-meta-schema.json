@@ -1,0 +1,34 @@
+/* ========================
+   Property Meta Schema (JSON-LD)
+   File: /styles/components/property-meta-schema.json
+======================== */
+
+{
+  "@context": "https://schema.org",
+  "@type": "Residence",
+  "name": "Modern 3 Bedroom House in San Diego",
+  "description": "Stunning 3-bedroom, 2-bathroom modern home with ocean views, located in the heart of San Diego.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Coastal View Blvd",
+    "addressLocality": "San Diego",
+    "addressRegion": "CA",
+    "postalCode": "92101",
+    "addressCountry": "US"
+  },
+  "image": [
+    "https://example.com/images/property1.jpg",
+    "https://example.com/images/property2.jpg"
+  ],
+  "numberOfRooms": 3,
+  "floorSize": {
+    "@type": "QuantitativeValue",
+    "value": "1500",
+    "unitCode": "SQF"
+  },
+  "price": 985000,
+  "priceCurrency": "USD",
+  "availability": "https://schema.org/InStock",
+  "url": "https://example.com/property/123-coastal-view-blvd",
+  "mainEntityOfPage": "https://example.com/property/123-coastal-view-blvd"
+}

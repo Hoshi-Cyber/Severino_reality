@@ -1,0 +1,112 @@
+{
+  "title": "3-Bedroom Family House in Kileleshwa",
+  "image": "assets/images/house_1.png",
+  "location": "Kileleshwa, Nairobi",
+  "price": "KSh 180,000/month",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "area": "2100 sq ft",
+  "status": "For Rent",
+  "gallery": [
+    {
+      "url": "assets/images/house_2.png",
+      "caption": "Spacious living room – Kileleshwa apartment"
+    },
+    {
+      "url": "assets/images/house_3.png",
+      "caption": "Modern kitchen with high-end finishes"
+    }
+  ],
+  "amenities": [
+    {
+      "icon": "icon-bed",
+      "label": "3 Bedrooms"
+    },
+    {
+      "icon": "icon-bath",
+      "label": "2 Bathrooms"
+    },
+    {
+      "icon": "icon-wifi",
+      "label": "WiFi"
+    }
+  ],
+  "cta": {
+    "label": "Chat Now on WhatsApp",
+    "url": "https://wa.me/254712345678?text=I%27m%20interested%20in%203-Bedroom%20Family%20House%20in%20Kileleshwa"
+  },
+  "faq": [
+    {
+      "q": "Are pets allowed?",
+      "a": "Pets are welcome with prior approval."
+    },
+    {
+      "q": "What is the security like?",
+      "a": "24/7 manned security, gated community and CCTV surveillance."
+    },
+    {
+      "q": "Is there a deposit required?",
+      "a": "Yes, a two-month refundable deposit is required."
+    }
+  ],
+  "map": "https://maps.google.com/?q=Kileleshwa,Nairobi",
+  "breadcrumb": [
+    {
+      "label": "Home",
+      "url": "home.html"
+    },
+    {
+      "label": "Nairobi",
+      "url": "#"
+    },
+    {
+      "label": "Kileleshwa",
+      "url": "#"
+    }
+  ],
+  "similar": [
+    {
+      "title": "2-Bedroom Apartment in Westlands",
+      "image": "assets/images/house_4.png",
+      "price": "KSh 120,000/month",
+      "link": "index.html?slug=property-002"
+    },
+    {
+      "title": "Luxury 4BR Mansion in Karen",
+      "image": "assets/images/house_7.png",
+      "price": "KSh 500,000/month",
+      "link": "index.html?slug=property-003"
+    }
+  ],
+  "companyInfo": "Severino Realty Group, Nairobi, Kenya",
+  "links": [
+    {
+      "label": "Privacy Policy",
+      "url": "/privacy"
+    },
+    {
+      "label": "Terms",
+      "url": "/terms"
+    }
+  ],
+  "copyright": "\u00a9 2025 Severino Realty",
+  "logo": "assets/logos/logo_1.png",
+  "navItems": [
+    { "label": "Home", "link": "home.html" },
+    { "label": "Rent", "link": "#" },
+    { "label": "Buy", "link": "#" },
+    { "label": "Contact", "link": "#" }
+  ],
+  "contactLink": "#",
+  "meta": {
+    "@context": "https://schema.org",
+    "@type": "Residence",
+    "name": "3-Bedroom Family House in Kileleshwa",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kileleshwa",
+      "addressRegion": "Nairobi",
+      "addressCountry": "Kenya"
+    }
+  }
+}

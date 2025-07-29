@@ -1,0 +1,64 @@
+/* ========================
+   Dark Mode Theme
+   File: /styles/themes/dark-mode.css
+======================== */
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode a {
+  color: #e0e0e0;
+}
+
+body.dark-mode a:hover {
+  color: var(--hover-color);
+}
+
+body.dark-mode .site-header,
+body.dark-mode .site-footer,
+body.dark-mode .faq-section,
+body.dark-mode .contact-section,
+body.dark-mode .gallery-section,
+body.dark-mode .call-to-action {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark-mode .nav-menu a,
+body.dark-mode .footer-column ul li a,
+body.dark-mode .property-card-content,
+body.dark-mode .faq-question,
+body.dark-mode .faq-answer {
+  color: #e0e0e0;
+}
+
+body.dark-mode .property-card,
+body.dark-mode .faq-item,
+body.dark-mode .gallery-item,
+body.dark-mode .contact-form input,
+body.dark-mode .contact-form textarea {
+  background-color: #2a2a2a;
+  border-color: #444;
+  color: #e0e0e0;
+}
+
+body.dark-mode .btn,
+body.dark-mode input[type="submit"],
+body.dark-mode button[type="submit"] {
+  background-color: var(--secondary-color2);
+  color: var(--neutral-color1);
+}
+
+body.dark-mode .btn:hover,
+body.dark-mode input[type="submit"]:hover,
+body.dark-mode button[type="submit"]:hover {
+  background-color: var(--secondary-color1);
+}
+
+body.dark-mode .bordered,
+body.dark-mode .form-group {
+  border-color: #444;
+}
+/* Dark mode styles */

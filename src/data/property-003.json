@@ -1,0 +1,64 @@
+{
+  "title": "Luxury 4BR Mansion in Karen",
+  "image": "assets/images/karen-cover.jpg",
+  "location": "Karen, Nairobi",
+  "price": "KSh 500,000/month",
+  "bedrooms": 4,
+  "bathrooms": 5,
+  "area": "5000 sq ft",
+  "status": "For Sale",
+  "gallery": [],
+  "amenities": [],
+  "cta": {
+    "label": "Inquire Now",
+    "url": "https://wa.me/254700000002"
+  },
+  "faq": [],
+  "map": "https://maps.google.com/?q=Karen,Nairobi",
+  "breadcrumb": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Nairobi",
+      "url": "/nairobi"
+    },
+    {
+      "label": "Karen",
+      "url": "/karen"
+    }
+  ],
+  "similar": [],
+  "companyInfo": "Severino Realty Group",
+  "links": [
+    {
+      "label": "About",
+      "url": "/about"
+    }
+  ],
+  "copyright": "\u00a9 2025",
+  "logo": "assets/images/logo.png",
+  "navItems": [
+    {
+      "label": "Home",
+      "link": "/"
+    },
+    {
+      "label": "Buy",
+      "link": "/buy"
+    }
+  ],
+  "contactLink": "/contact",
+  "meta": {
+    "@context": "https://schema.org",
+    "@type": "Residence",
+    "name": "Luxury 4BR Mansion in Karen",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Karen",
+      "addressRegion": "Nairobi",
+      "addressCountry": "Kenya"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+/* ========================
+   Floating Contact Widget Styles
+   File: /styles/components/floating-contact-widget.css
+======================== */
+
+.floating-contact-widget {
+  position: fixed;
+  bottom: var(--space-xl);
+  right: var(--space-xl);
+  background-color: var(--primary-color);
+  color: var(--neutral-color1);
+  padding: var(--space-md);
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--box-shadow-light);
+  z-index: 1050;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  max-width: 280px;
+}
+
+.floating-contact-widget h4 {
+  font-size: var(--font-size-h6);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--space-xs);
+}
+
+.floating-contact-widget a,
+.floating-contact-widget button {
+  color: var(--neutral-color1);
+  background-color: var(--secondary-color1);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--border-radius-small);
+  text-decoration: none;
+  font-size: var(--font-size-small);
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+.floating-contact-widget a:hover,
+.floating-contact-widget button:hover {
+  background-color: var(--secondary-color2);
+}
+
+@media (max-width: 768px) {
+  .floating-contact-widget {
+    bottom: var(--space-lg);
+    right: var(--space-md);
+    max-width: 90vw;
+  }
+}

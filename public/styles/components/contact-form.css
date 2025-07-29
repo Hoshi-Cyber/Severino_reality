@@ -1,0 +1,70 @@
+/* ========================
+   Contact Form Styles
+   File: /styles/components/contact-form.css
+======================== */
+
+.contact-section {
+  padding: var(--space-xxl) var(--space-md);
+  background-color: var(--neutral-color1);
+}
+
+.contact-section h2 {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-color);
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-body);
+  padding: var(--space-sm);
+  border: 1px solid var(--neutral-color2);
+  border-radius: var(--border-radius-small);
+  background-color: var(--neutral-color1);
+  transition: border-color var(--transition-fast);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--hover-color);
+  outline: none;
+  background-color: #fff;
+}
+
+.contact-form button {
+  align-self: flex-start;
+  padding: var(--space-sm) var(--space-lg);
+  background-color: var(--secondary-color1);
+  color: var(--neutral-color1);
+  font-weight: var(--font-weight-semibold);
+  border: none;
+  border-radius: var(--border-radius-medium);
+  cursor: pointer;
+  box-shadow: var(--box-shadow-light);
+  transition: background-color var(--transition-fast);
+}
+
+.contact-form button:hover {
+  background-color: var(--secondary-color2);
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding: var(--space-xl) var(--space-sm);
+  }
+  .contact-form button {
+    width: 100%;
+  }
+}

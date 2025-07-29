@@ -1,0 +1,91 @@
+{
+  "title": "2-Bedroom Apartment in Westlands",
+  "image": "assets/images/house_4.png",
+  "location": "Westlands, Nairobi",
+  "price": "KSh 120,000/month",
+  "bedrooms": 2,
+  "bathrooms": 2,
+  "area": "1500 sq ft",
+  "status": "For Rent",
+  "gallery": [
+    {
+      "url": "assets/images/house_5.png",
+      "caption": "Bright and airy living area"
+    },
+    {
+      "url": "assets/images/house_6.png",
+      "caption": "Contemporary kitchen with sleek finishes"
+    }
+  ],
+  "amenities": [
+    { "icon": "icon-bed", "label": "2 Bedrooms" },
+    { "icon": "icon-bath", "label": "2 Bathrooms" },
+    { "icon": "icon-parking", "label": "Secure Parking" },
+    { "icon": "icon-wifi", "label": "Free WiFi" }
+  ],
+  "cta": {
+    "label": "Chat Now on WhatsApp",
+    "url": "https://wa.me/254712345679?text=I%27m%20interested%20in%202-Bedroom%20Apartment%20in%20Westlands"
+  },
+  "faq": [
+    {
+      "q": "Is the apartment pet friendly?",
+      "a": "Yes, small pets are allowed with a pet deposit."
+    },
+    {
+      "q": "Does the rent include utilities?",
+      "a": "Water is included. Electricity is prepaid."
+    },
+    {
+      "q": "Is there security?",
+      "a": "The building has 24/7 security and CCTV."
+    }
+  ],
+  "map": "https://maps.google.com/?q=Westlands,Nairobi",
+  "breadcrumb": [
+    { "label": "Home", "url": "home.html" },
+    { "label": "Nairobi", "url": "#" },
+    { "label": "Westlands", "url": "#" }
+  ],
+  "similar": [
+    {
+      "title": "3-Bedroom Family House in Kileleshwa",
+      "image": "assets/images/house_1.png",
+      "price": "KSh 180,000/month",
+      "link": "index.html?slug=property-001"
+    },
+    {
+      "title": "Luxury 4BR Mansion in Karen",
+      "image": "assets/images/house_7.png",
+      "price": "KSh 500,000/month",
+      "link": "index.html?slug=property-003"
+    }
+  ],
+  "companyInfo": "Severino Realty Group",
+  "links": [
+    {
+      "label": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "copyright": "\u00a9 2025",
+  "logo": "assets/logos/logo_1.png",
+  "navItems": [
+    { "label": "Home", "link": "home.html" },
+    { "label": "Rent", "link": "#" },
+    { "label": "Buy", "link": "#" },
+    { "label": "Contact", "link": "#" }
+  ],
+  "contactLink": "#",
+  "meta": {
+    "@context": "https://schema.org",
+    "@type": "Residence",
+    "name": "2-Bedroom Apartment in Westlands",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Westlands",
+      "addressRegion": "Nairobi",
+      "addressCountry": "Kenya"
+    }
+  }
+}

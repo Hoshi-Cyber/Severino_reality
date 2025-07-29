@@ -1,0 +1,67 @@
+/* ========================
+   List Your Property Form Styles
+   File: /styles/components/list-your-property-form.css
+======================== */
+
+.list-your-property-form {
+  padding: var(--space-xxl) var(--space-md);
+  background-color: var(--neutral-color1);
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--box-shadow-light);
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.list-your-property-form h2 {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-color);
+  margin-bottom: var(--space-md);
+  text-align: center;
+}
+
+.list-your-property-form .form-group {
+  margin-bottom: var(--space-md);
+}
+
+.list-your-property-form label {
+  display: block;
+  font-size: var(--font-size-small);
+  color: var(--text-color);
+  font-weight: var(--font-weight-medium);
+  margin-bottom: var(--space-xs);
+}
+
+.list-your-property-form input,
+.list-your-property-form textarea {
+  width: 100%;
+  padding: var(--space-sm);
+  border: 1px solid var(--neutral-color2);
+  border-radius: var(--border-radius-small);
+  font-size: var(--font-size-body);
+  background-color: var(--background-color);
+}
+
+.list-your-property-form button {
+  display: block;
+  margin-top: var(--space-md);
+  padding: var(--space-sm) var(--space-lg);
+  background-color: var(--secondary-color1);
+  color: var(--neutral-color1);
+  border: none;
+  border-radius: var(--border-radius-medium);
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+.list-your-property-form button:hover {
+  background-color: var(--secondary-color2);
+}
+
+@media (max-width: 768px) {
+  .list-your-property-form {
+    padding: var(--space-xl) var(--space-sm);
+  }
+}

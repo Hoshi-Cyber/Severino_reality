@@ -1,0 +1,64 @@
+/* ========================
+   Property Filter Form Styles
+   File: /styles/components/property-filter-form.css
+======================== */
+
+.property-filter-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  padding: var(--space-xl) var(--space-md);
+  background-color: var(--neutral-color1);
+  border-radius: var(--border-radius-medium);
+  box-shadow: var(--box-shadow-light);
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.property-filter-form .form-group {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.property-filter-form label {
+  font-size: var(--font-size-small);
+  margin-bottom: var(--space-xs);
+  color: var(--text-color);
+  font-weight: var(--font-weight-medium);
+}
+
+.property-filter-form select,
+.property-filter-form input {
+  padding: var(--space-sm);
+  font-size: var(--font-size-body);
+  border: 1px solid var(--neutral-color2);
+  border-radius: var(--border-radius-small);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.property-filter-form button {
+  padding: var(--space-sm) var(--space-lg);
+  background-color: var(--secondary-color1);
+  color: var(--neutral-color1);
+  border: none;
+  border-radius: var(--border-radius-medium);
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+.property-filter-form button:hover {
+  background-color: var(--secondary-color2);
+}
+
+@media (max-width: 768px) {
+  .property-filter-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .property-filter-form .form-group {
+    width: 100%;
+  }
+}

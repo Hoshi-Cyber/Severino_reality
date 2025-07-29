@@ -1,0 +1,64 @@
+/* ========================
+   Image Hero With Search Styles
+   File: /styles/components/image-hero-with-search.css
+======================== */
+
+.image-hero-search {
+  background: linear-gradient(rgba(26, 42, 58, 0.6), rgba(26, 42, 58, 0.6)),
+              url('../assets/image-hero-bg.jpg') center/cover no-repeat;
+  padding: var(--space-xxl) var(--space-md);
+  text-align: center;
+  color: var(--neutral-color1);
+}
+
+.image-hero-search h1 {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-bold);
+  color: var(--neutral-color1);
+  margin-bottom: var(--space-md);
+}
+
+.image-hero-search .search-box {
+  margin-top: var(--space-md);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: var(--space-sm);
+}
+
+.image-hero-search input[type="text"] {
+  flex: 1;
+  padding: var(--space-sm);
+  border-radius: var(--border-radius-small);
+  border: 1px solid var(--neutral-color2);
+  font-size: var(--font-size-body);
+}
+
+.image-hero-search button {
+  padding: var(--space-sm) var(--space-lg);
+  border: none;
+  background-color: var(--secondary-color1);
+  color: var(--neutral-color1);
+  font-weight: var(--font-weight-semibold);
+  border-radius: var(--border-radius-small);
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+.image-hero-search button:hover {
+  background-color: var(--secondary-color2);
+}
+
+@media (max-width: 768px) {
+  .image-hero-search h1 {
+    font-size: var(--font-size-h3);
+  }
+  .image-hero-search .search-box {
+    flex-direction: column;
+  }
+  .image-hero-search button {
+    width: 100%;
+  }
+}

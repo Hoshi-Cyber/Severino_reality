@@ -1,0 +1,46 @@
+/* ========================
+   Responsive Utilities
+   File: /styles/media-queries/responsive.css
+======================== */
+
+/* Small devices (phones, 360px and up) */
+@media (max-width: 480px) {
+  .hide-mobile {
+    display: none !important;
+  }
+  .text-sm-center {
+    text-align: center !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .hide-tablet {
+    display: none !important;
+  }
+  .text-md-center {
+    text-align: center !important;
+  }
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (max-width: 1024px) {
+  .hide-desktop {
+    display: none !important;
+  }
+  .text-lg-center {
+    text-align: center !important;
+  }
+}
+
+/* Utility: Fluid margin/padding on screens */
+@media (max-width: 768px) {
+  .responsive-padding {
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+  }
+  .responsive-margin {
+    margin-left: var(--space-sm);
+    margin-right: var(--space-sm);
+  }
+}

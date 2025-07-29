@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Severino Realty – Property Listings</title>
+  <!-- Main stylesheet copied from src/styles -->
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <!-- Dynamic header -->
+  <div id="header"></div>
+
+  <main>
+    <section class="property-listings">
+      <h1>Explore Our Listings</h1>
+      <div class="listing-grid">
+        <article class="property-card">
+          <a href="index.html?slug=property-001">
+            <img src="assets/images/house_1.png" alt="3‑Bedroom Family House in Kileleshwa" loading="lazy" />
+            <div class="property-card-content">
+              <h3 class="property-title">3‑Bedroom Family House in Kileleshwa</h3>
+              <p class="property-price">KSh 180,000/month</p>
+            </div>
+          </a>
+        </article>
+        <article class="property-card">
+          <a href="index.html?slug=property-002">
+            <img src="assets/images/house_4.png" alt="2‑Bedroom Apartment in Westlands" loading="lazy" />
+            <div class="property-card-content">
+              <h3 class="property-title">2‑Bedroom Apartment in Westlands</h3>
+              <p class="property-price">KSh 120,000/month</p>
+            </div>
+          </a>
+        </article>
+        <article class="property-card">
+          <a href="index.html?slug=property-003">
+            <img src="assets/images/house_7.png" alt="Luxury 4BR Mansion in Karen" loading="lazy" />
+            <div class="property-card-content">
+              <h3 class="property-title">Luxury 4BR Mansion in Karen</h3>
+              <p class="property-price">KSh 500,000/month</p>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Dynamic footer -->
+  <div id="footer"></div>
+
+  <!-- Load JS modules for header/footer only -->
+  <script type="module">
+    import { renderHeader } from './js/components/Header.js';
+    import { renderFooter } from './js/components/Footer.js';
+    // Render generic header and footer using default values
+    document.getElementById('header').innerHTML = renderHeader({});
+    document.getElementById('footer').innerHTML = renderFooter({});
+  </script>
+</body>
+</html>

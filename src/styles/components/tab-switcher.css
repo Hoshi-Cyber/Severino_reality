@@ -1,0 +1,51 @@
+/* ========================
+   Tab Switcher Styles
+   File: /styles/components/tab-switcher.css
+======================== */
+
+.tab-switcher {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  padding: var(--space-xl) var(--space-md);
+}
+
+.tab-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  justify-content: center;
+}
+
+.tab-controls button {
+  padding: var(--space-xs) var(--space-md);
+  background-color: var(--neutral-color2);
+  color: var(--primary-color);
+  border: none;
+  border-radius: var(--border-radius-small);
+  font-weight: var(--font-weight-medium);
+  transition: background-color var(--transition-fast);
+  cursor: pointer;
+}
+
+.tab-controls button.active,
+.tab-controls button:hover {
+  background-color: var(--secondary-color1);
+  color: var(--neutral-color1);
+}
+
+.tab-panel {
+  display: none;
+  padding-top: var(--space-md);
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .tab-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

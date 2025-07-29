@@ -1,0 +1,68 @@
+/* ========================
+   Hero Banner Styles
+   File: /styles/components/hero-banner.css
+======================== */
+
+.hero-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--space-xxxl) var(--space-md);
+  background: linear-gradient(rgba(26, 42, 58, 0.7), rgba(26, 42, 58, 0.7)), url('../assets/hero-bg.jpg') center/cover no-repeat;
+  color: var(--neutral-color1);
+  min-height: 80vh;
+}
+
+.hero-banner h1 {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-h1);
+  line-height: var(--line-height-h1);
+  font-weight: var(--font-weight-extrabold);
+  margin-bottom: var(--space-md);
+  color: var(--neutral-color1);
+}
+
+.hero-banner p {
+  max-width: 700px;
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  margin-bottom: var(--space-lg);
+  color: var(--neutral-color1);
+}
+
+.hero-banner .cta-buttons {
+  display: flex;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-banner .cta-buttons a {
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: var(--border-radius-medium);
+  font-weight: var(--font-weight-semibold);
+  text-decoration: none;
+  color: var(--neutral-color1);
+  background-color: var(--secondary-color1);
+  transition: background-color var(--transition-fast);
+  box-shadow: var(--box-shadow-light);
+}
+
+.hero-banner .cta-buttons a:hover {
+  background-color: var(--secondary-color2);
+}
+
+@media (max-width: 768px) {
+  .hero-banner {
+    padding: var(--space-xxl) var(--space-md);
+  }
+  .hero-banner h1 {
+    font-size: var(--font-size-h2);
+    line-height: var(--line-height-h2);
+  }
+  .hero-banner p {
+    font-size: var(--font-size-small);
+  }
+}

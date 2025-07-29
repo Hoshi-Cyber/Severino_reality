@@ -1,0 +1,57 @@
+/* ========================
+   Gallery Section Styles
+   File: /styles/components/gallery.css
+======================== */
+
+.gallery-section {
+  padding: var(--space-xxl) var(--space-md);
+  background-color: var(--background-color);
+}
+
+.gallery-section h2 {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-color);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-lg);
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: var(--border-radius-medium);
+  box-shadow: var(--box-shadow-light);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transition: transform var(--transition-fast);
+}
+
+.gallery-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .gallery-section {
+    padding: var(--space-xl) var(--space-sm);
+  }
+  .gallery-grid {
+    gap: var(--space-md);
+  }
+}

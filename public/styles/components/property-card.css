@@ -1,0 +1,95 @@
+/* ========================
+   Property Card Styles
+   File: /styles/components/property-card.css
+======================== */
+
+.property-card {
+  background-color: var(--neutral-color1);
+  border-radius: var(--border-radius-medium);
+  box-shadow: var(--box-shadow-light);
+  overflow: hidden;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  display: flex;
+  flex-direction: column;
+}
+
+.property-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.property-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.property-card-content {
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.property-title {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-h5);
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-color);
+}
+
+.property-location {
+  font-size: var(--font-size-small);
+  color: var(--accent-color);
+  font-weight: var(--font-weight-medium);
+}
+
+.property-price {
+  font-size: var(--font-size-h6);
+  font-weight: var(--font-weight-semibold);
+  color: var(--secondary-color1);
+}
+
+.property-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  font-size: var(--font-size-small);
+  color: var(--text-color);
+  margin-top: var(--space-sm);
+}
+
+.property-features span {
+  background-color: var(--neutral-color2);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--border-radius-small);
+}
+
+/* Grid layout for the home page listing cards */
+.listing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-lg);
+  margin: var(--space-xl) var(--space-md);
+}
+
+.property-listings h1 {
+  text-align: center;
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-lg);
+  font-size: var(--font-size-h3);
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .property-card-content {
+    padding: var(--space-sm);
+  }
+  .property-title {
+    font-size: var(--font-size-h6);
+  }
+  .property-price {
+    font-size: var(--font-size-body);
+  }
+}

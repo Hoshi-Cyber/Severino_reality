@@ -1,0 +1,54 @@
+/* ========================
+   Icon Feature Grid Styles
+   File: /styles/components/icon-feature-grid.css
+======================== */
+
+.icon-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: var(--space-lg);
+  padding: var(--space-xxl) var(--space-md);
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--space-md);
+  background-color: var(--neutral-color1);
+  border-radius: var(--border-radius-medium);
+  box-shadow: var(--box-shadow-light);
+  transition: transform var(--transition-fast);
+}
+
+.feature-item:hover {
+  transform: translateY(-4px);
+}
+
+.feature-item img,
+.feature-item svg {
+  width: 48px;
+  height: 48px;
+  margin-bottom: var(--space-sm);
+}
+
+.feature-item h4 {
+  font-size: var(--font-size-h6);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--space-xs);
+  color: var(--primary-color);
+}
+
+.feature-item p {
+  font-size: var(--font-size-small);
+  color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+  .icon-feature-grid {
+    gap: var(--space-md);
+    padding: var(--space-xl) var(--space-sm);
+  }
+}

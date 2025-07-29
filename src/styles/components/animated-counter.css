@@ -1,0 +1,21 @@
+/* ========================
+   Animated Counter Styles
+   File: /styles/components/animated-counter.css
+======================== */
+
+.animated-counter {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-secondary);
+  color: var(--primary-color);
+  text-align: center;
+  margin: var(--space-lg) 0;
+}
+
+.animated-counter-label {
+  display: block;
+  font-size: var(--font-size-small);
+  color: var(--text-color);
+  margin-top: var(--space-xs);
+  text-align: center;
+}

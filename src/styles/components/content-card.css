@@ -1,0 +1,50 @@
+/* ========================
+   Content Card Styles
+   File: /styles/components/content-card.css
+======================== */
+
+.content-card {
+  background-color: var(--neutral-color1);
+  border-radius: var(--border-radius-medium);
+  box-shadow: var(--box-shadow-light);
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.content-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.content-card h3 {
+  font-size: var(--font-size-h5);
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-color);
+}
+
+.content-card p {
+  font-size: var(--font-size-body);
+  color: var(--text-color);
+}
+
+.content-card a {
+  align-self: flex-start;
+  font-size: var(--font-size-small);
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+  transition: color var(--transition-fast);
+}
+
+.content-card a:hover {
+  color: var(--secondary-color1);
+}
+
+@media (max-width: 768px) {
+  .content-card {
+    padding: var(--space-md);
+  }
+}

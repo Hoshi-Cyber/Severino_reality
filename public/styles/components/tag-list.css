@@ -1,0 +1,32 @@
+/* ========================
+   Tag List Styles
+   File: /styles/components/tag-list.css
+======================== */
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  padding: var(--space-sm) 0;
+}
+
+.tag {
+  display: inline-block;
+  background-color: var(--neutral-color2);
+  color: var(--primary-color);
+  font-size: var(--font-size-small);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--border-radius-small);
+  transition: background-color var(--transition-fast);
+  cursor: pointer;
+}
+
+.tag:hover {
+  background-color: var(--accent-color);
+  color: var(--neutral-color1);
+}
+
+.tag.active {
+  background-color: var(--secondary-color1);
+  color: var(--neutral-color1);
+}

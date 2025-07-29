@@ -1,0 +1,21 @@
+/* ========================
+   Rating Stars Styles
+   File: /styles/components/rating-stars.css
+======================== */
+
+.rating-stars {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.rating-stars svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--secondary-color1);
+  transition: fill var(--transition-fast);
+}
+
+.rating-stars svg.inactive {
+  fill: var(--neutral-color3);
+}

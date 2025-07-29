@@ -1,0 +1,59 @@
+/* ========================
+   Typography Utilities
+   File: /styles/layouts/typography.css
+======================== */
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color1);
+}
+
+.text-accent {
+  color: var(--accent-color);
+}
+
+.text-muted {
+  color: var(--placeholder-gray);
+}
+
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+.font-decorative {
+  font-family: var(--font-decorative);
+}
+
+.text-lg {
+  font-size: var(--font-size-h4);
+  line-height: var(--line-height-h4);
+}
+
+.text-md {
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+}
+
+.text-sm {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-body);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}

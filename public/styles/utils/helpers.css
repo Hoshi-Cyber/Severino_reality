@@ -1,0 +1,31 @@
+/* ========================
+   Helper Utility Classes
+   File: /styles/utils/helpers.css
+======================== */
+
+.text-center { text-align: center !important; }
+.text-left { text-align: left !important; }
+.text-right { text-align: right !important; }
+
+.mt-0 { margin-top: 0 !important; }
+.mt-sm { margin-top: var(--space-sm) !important; }
+.mt-md { margin-top: var(--space-md) !important; }
+.mt-lg { margin-top: var(--space-lg) !important; }
+
+.mb-0 { margin-bottom: 0 !important; }
+.mb-sm { margin-bottom: var(--space-sm) !important; }
+.mb-md { margin-bottom: var(--space-md) !important; }
+.mb-lg { margin-bottom: var(--space-lg) !important; }
+
+.pt-sm { padding-top: var(--space-sm) !important; }
+.pt-md { padding-top: var(--space-md) !important; }
+.pt-lg { padding-top: var(--space-lg) !important; }
+
+.pb-sm { padding-bottom: var(--space-sm) !important; }
+.pb-md { padding-bottom: var(--space-md) !important; }
+.pb-lg { padding-bottom: var(--space-lg) !important; }
+
+.w-full { width: 100% !important; }
+.max-w-screen-lg { max-width: 1200px; margin-left: auto; margin-right: auto; }
+.hidden { display: none !important; }
+/* Helper utility classes */

@@ -1,0 +1,60 @@
+/* ========================
+   FAQ Section Styles
+   File: /styles/components/faq.css
+======================== */
+
+.faq-section {
+  padding: var(--space-xxl) var(--space-md);
+  background-color: var(--neutral-color1);
+}
+
+.faq-section h2 {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-color);
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--neutral-color2);
+  padding: var(--space-md) 0;
+}
+
+.faq-question {
+  font-size: var(--font-size-h5);
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  position: relative;
+  padding-right: var(--space-lg);
+  transition: color var(--transition-fast);
+}
+
+.faq-question:hover {
+  color: var(--accent-color);
+}
+
+.faq-answer {
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  color: var(--text-color);
+  margin-top: var(--space-sm);
+  display: none;
+}
+
+.faq-item.active .faq-answer {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .faq-section {
+    padding: var(--space-xl) var(--space-sm);
+  }
+  .faq-question {
+    font-size: var(--font-size-body);
+  }
+  .faq-answer {
+    font-size: var(--font-size-small);
+  }
+}

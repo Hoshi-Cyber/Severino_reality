@@ -1,0 +1,19 @@
+/* ========================
+   Design System Variables
+   File: /styles/utils/variables.css
+======================== */
+
+@import url('../../affstyle.css');
+
+/* This file bridges base variables into modular use. */
+
+:root {
+  /* Re-declare root for scoped tools */
+  font-family: var(--font-primary);
+  font-size: var(--font-size-body);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+:root {
+  --primary-color: #0055ff;
+}

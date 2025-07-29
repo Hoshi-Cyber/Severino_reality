@@ -1,0 +1,56 @@
+/* ========================
+   CTA Section Styles
+   File: /styles/components/cta-section.css
+======================== */
+
+.cta-section {
+  background-color: var(--primary-color);
+  color: var(--neutral-color1);
+  padding: var(--space-xxl) var(--space-md);
+  text-align: center;
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--box-shadow-light);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.cta-section h2 {
+  font-size: var(--font-size-h3);
+  font-family: var(--font-secondary);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-md);
+}
+
+.cta-section p {
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  margin-bottom: var(--space-lg);
+}
+
+.cta-section .cta-button {
+  background-color: var(--secondary-color1);
+  color: var(--neutral-color1);
+  padding: var(--space-sm) var(--space-lg);
+  font-size: var(--font-size-small);
+  border-radius: var(--border-radius-medium);
+  font-weight: var(--font-weight-semibold);
+  text-decoration: none;
+  transition: background-color var(--transition-fast);
+  display: inline-block;
+}
+
+.cta-section .cta-button:hover {
+  background-color: var(--secondary-color2);
+}
+
+@media (max-width: 768px) {
+  .cta-section {
+    padding: var(--space-xl) var(--space-sm);
+  }
+  .cta-section h2 {
+    font-size: var(--font-size-h4);
+  }
+  .cta-section p {
+    font-size: var(--font-size-small);
+  }
+}

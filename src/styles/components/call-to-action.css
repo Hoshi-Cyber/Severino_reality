@@ -1,0 +1,58 @@
+/* ========================
+   Call To Action Styles
+   File: /styles/components/call-to-action.css
+======================== */
+
+.call-to-action {
+  background-color: var(--primary-color);
+  color: var(--neutral-color1);
+  padding: var(--space-xxl) var(--space-md);
+  text-align: center;
+  border-radius: var(--border-radius-large);
+  margin: var(--space-xxl) auto;
+  max-width: 960px;
+  box-shadow: var(--box-shadow-light);
+}
+
+.call-to-action h2 {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height-h2);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-md);
+  color: var(--neutral-color1);
+}
+
+.call-to-action p {
+  font-size: var(--font-size-body);
+  margin-bottom: var(--space-lg);
+  color: var(--neutral-color2);
+}
+
+.call-to-action .cta-button {
+  display: inline-block;
+  padding: var(--space-sm) var(--space-lg);
+  background-color: var(--secondary-color1);
+  color: var(--neutral-color1);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-body);
+  border-radius: var(--border-radius-medium);
+  text-decoration: none;
+  transition: background-color var(--transition-fast);
+}
+
+.call-to-action .cta-button:hover {
+  background-color: var(--secondary-color2);
+}
+
+@media (max-width: 768px) {
+  .call-to-action {
+    padding: var(--space-xl) var(--space-sm);
+  }
+  .call-to-action h2 {
+    font-size: var(--font-size-h3);
+  }
+  .call-to-action p {
+    font-size: var(--font-size-small);
+  }
+}
