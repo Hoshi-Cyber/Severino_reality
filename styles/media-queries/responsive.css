@@ -1,0 +1,6 @@
+
+/* Responsive Breakpoints */
+@media (min-width: 320px) { /* Mobile */ }
+@media (min-width: 768px) { /* Tablet */ }
+@media (min-width: 1024px) { /* Desktop */ }
+@media (min-width: 1440px) { /* Large Desktop */ }
